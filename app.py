@@ -6,3 +6,5 @@ st.title("Mi primera app")
 st.header("En este espacio comienzo a desarrollar mis aplicaciones")
 st.write("Para realizar cosas")
 image = Image.open('Zayn2.jpg')
+
+st.Image(image, caption='Interfaces multimodales')
