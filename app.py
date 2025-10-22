@@ -1,10 +1,10 @@
 import streamlit as st 
 from PIL import Image 
 
-st.title("APP")
+st.title("Intro")
 
-st.header("En este espacio comienzo a desarrollar mis aplicaciones")
-st.write("Para realizar cosas")
+st.header("Esta es mi primera aplicación")
+st.write("Pintura de la noche estrellada")
 image = Image.open('gatito.jpeg')
 
 st.image(image, caption='Interfaces multimodales')
