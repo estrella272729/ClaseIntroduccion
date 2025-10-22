@@ -10,4 +10,4 @@ image = Image.open('Pintura.jpg')
 st.image(image, caption='Interfaces multimodales')
 
 texto = st.text_input('Escribe tu opinión sobre la pintura:', 'Escribe aqui') 
-st.write('Que bonita pintura', texto)
+st.write('¡Gracias por tu opinión!', texto)
