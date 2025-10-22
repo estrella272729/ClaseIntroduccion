@@ -5,9 +5,9 @@ st.title("Intro")
 
 st.header("Esta es mi primera aplicación")
 st.write("Pintura de la noche estrellada")
-image = Image.open('gatito.jpeg')
+image = Image.open('Pintura.jpeg')
 
 st.image(image, caption='Interfaces multimodales')
 
-texto = st.text_input('Escribe algo', 'Este es mi texto') 
-st.write('El texto escrito es', texto)
+texto = st.text_input('Escribe tu opinión sobre la pintura:', 'Escribe aqui') 
+st.write('Que bonita pintura', texto)
