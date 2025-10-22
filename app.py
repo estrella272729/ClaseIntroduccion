@@ -3,7 +3,7 @@ from PIL import Image
 
 st.title("Intro")
 
-st.header("Esta es mi primera aplicación- Opinión de arte")
+st.header("Esta es mi primera aplicación-Arte")
 st.write("Pintura de la noche estrellada")
 image = Image.open('Pintura.jpg')
 
