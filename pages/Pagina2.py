@@ -1,2 +1,2 @@
 import streamlit as st
-st.title("Esta es mi segunda página")
+st.title("Esta es mi segunda página web")
