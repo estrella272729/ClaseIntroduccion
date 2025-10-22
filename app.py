@@ -5,7 +5,7 @@ st.title("Intro")
 
 st.header("Esta es mi primera aplicación")
 st.write("Pintura de la noche estrellada")
-image = Image.open('Pintura.jpeg')
+image = Image.open('Pintura.jpg')
 
 st.image(image, caption='Interfaces multimodales')
 
